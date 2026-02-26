@@ -1,50 +1,30 @@
-\# 🐉 D\&D Campaign Architect \& Matchmaker
+# 🦄 D&D Campaign Architect: Big Data & AI Engine
 
+A high-performance, full-stack data application that solves "Dungeon Master Burnout" by combining relational databases, multi-source data pipelines, and AI-driven content generation.
 
+## 🚀 The "Unicorn" Tech Stack
+* **Frontend:** Streamlit (Interactive Web Dashboard)
+* **Backend:** Python 3.x & Pandas
+* **Database:** SQLite3 (Relational structure with 10,000+ records)
+* **Data Pipeline:** Automated ETL for CSV, TSV, and Excel (XLSX) formats.
+* **AI:** Context-Injected Prompt Engineering for Hallucination-Free Storytelling.
 
-\## 🚀 Project Overview
+## 📈 Big Data Integration (Kaggle)
+This app doesn't just use sample data; it ingests five massive professional datasets:
+1.  **7,900+** Premade Characters (TSV)
+2.  **600+** World Locations from Faerûn (Excel)
+3.  **500+** Spells & Equipment (CSV)
+4.  **300+** Monsters with Challenge Ratings (CSV)
 
-A data-driven solution to the "Dungeon Master Burnout" and "Player Matching" problem. This project uses a Relational Database (SQL) and Python logic to match players with compatible Dungeon Masters based on playstyle metrics, then uses AI to generate custom adventure hooks.
+## 🧠 Key Engineering Features
+* **The ETL Pipeline (`ingest.py`):** A custom script that handles schema normalization, resolving mismatched column headers and hidden white-space errors from multiple data sources.
+* **Bulletproof SQL Queries:** Uses dynamic column-finding logic to ensure stability even when external data headers change.
+* **AI Context Injection:** A "Premium" feature that pulls random facts (Hero, Location, Monster) from the database to generate 100% lore-accurate adventure hooks.
+* **Data Cleaning:** Automated outlier capping and string normalization to maintain database integrity.
 
+## 📂 How to Run
+1.  Install requirements: `pip install streamlit pandas openpyxl`
+2.  Run `python ingest.py` to build the Big Data vault.
+3.  Launch the app: `streamlit run app.py`
 
-
-\## 🛠️ Technical Stack
-
-\* \*\*Database:\*\* SQLite3 (Relational structure)
-
-\* \*\*Logic:\*\* Python 3.x
-
-\* \*\*Intelligence:\*\* Prompt Engineering for AI Integration
-
-\* \*\*Analytics:\*\* SQL Self-Joins and Multi-table Normalization
-
-
-
-\## 📈 Business Value \& Monetization
-
-This project is designed with a \*\*Freemium Business Model\*\*:
-
-1\.  \*\*Lead Generation:\*\* Free matching for basic players to grow the user base.
-
-2\.  \*\*Premium Features:\*\* AI-generated "Session Zero" prompts and adventure scaling for paying DM subscribers.
-
-3\.  \*\*Affiliate Integration:\*\* Automated equipment recommendations that link to retail partners.
-
-
-
-\## 🧠 Key Features
-
-\* \*\*The Chemistry Engine:\*\* Uses mathematical Absolute Value (`ABS`) logic in SQL to ensure player/DM compatibility.
-
-\* \*\*The Adventure Bridge:\*\* A 3-way SQL Join that selects the perfect story hook based on party playstyle.
-
-\* \*\*AI Context Injection:\*\* Programmatically generated prompts that prevent AI hallucinations by providing real database facts.
-
-* **Data Cleaning Pipeline:** A dedicated script (`cleaning.py`) that handles "dirty" user input. It performs string normalization, null-value handling, and outlier capping (ensuring style scores stay within a 1-10 range) before injection into the database.
-
-\## 📂 How to Run
-
-1\. Ensure Python is installed.
-
-2\. Run `python logic.py` to initialize the database and generate a sample match.
 
