@@ -1,7 +1,13 @@
-# 🦄 D&D Campaign Architect: Big Data & AI Engine
+🎲 D&D AI Matchmaker Engine
+A custom recommendation engine utilizing SQL and AI to optimize user pairing based on complex behavioral, playstyle, and scheduling data.
 
-A high-performance, full-stack data application that solves "Dungeon Master Burnout" by combining relational databases, multi-source data pipelines, and AI-driven content generation.
+Engineering Highlights:
 
+Recommendation Algorithms: Engineered a matchmaking logic system to parse unstructured user preferences and pair them with highly compatible groups.
+
+Database Management: Utilized SQL to structure, query, and maintain relational databases of user metrics and availability.
+
+Tech Stack: Python, SQL, AI/LLM Integration, Relational Database Design.
 ## 🚀 The "Unicorn" Tech Stack
 * **Frontend:** Streamlit (Interactive Web Dashboard)
 * **Backend:** Python 3.x & Pandas
@@ -26,5 +32,6 @@ This app doesn't just use sample data; it ingests five massive professional data
 1.  Install requirements: `pip install streamlit pandas openpyxl`
 2.  Run `python ingest.py` to build the Big Data vault.
 3.  Launch the app: `streamlit run app.py`
+
 
 
